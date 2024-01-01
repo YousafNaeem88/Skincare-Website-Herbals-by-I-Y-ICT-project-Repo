@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HERBALS BY I & Y - Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional styles for buttons */
+    .footer-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .footer-buttons button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #214c5e;
+      color: white;
+      font-size: 16px;
+    }
+
+    .footer-buttons button:hover {
+      background-color: #214c5e;
+    }
+  </style>
+</head>
+<body class="products">
+  <!-- ... (existing HTML code) ... -->
+  <section id="products" class="page">
+    <header>
+      <h1>Products</h1>
+      <section class="men-products">
+        <h2>Men's Products</h2>
+        <div class="product">
+          <img src="product1.jpeg" alt="Serums">
+          <div class="product-details">
+            <h3>Serums</h3>
+            <p> Targeted concerns: Anti-aging, hydration, brightening, oil control, acne
+                Key ingredients: Hyaluronic acid, retinol, vitamin C, niacinamide, salicylic acid (for acne)
+                Benefits: Reduce wrinkles, improve skin texture, fade hyperpigmentation, control oil, fight acne
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="product2.jpeg" alt="Beard Oil">
+          <div class="product-details">
+            <h3>Beard Oil</h3>
+            <p>Types: Conditioning, softening, growth-promoting, fragrance-infused
+                Key ingredients: Jojoba oil, argan oil, avocado oil, castor oil, essential oils (optional)
+                Benefits: Hydrate and soften beard hair, prevent beardruff, encourage beard growth (with specific ingredients), add fragrance
+            </p>
+          </div>
+        </div>
+        <div class="product">
+            <img src="product3.jpeg" alt="Moisturizer">
+            <div class="product-details">
+              <h3>Moisturizer</h3>
+              <p>Types: Oil-free, hydrating, mattifying, anti-aging, SPF-infused
+                Key ingredients: Hyaluronic acid, ceramides, glycerin, squalane, SPF (for daytime)
+                Benefits: Hydrate skin, prevent dryness, control oil, reduce wrinkles, protect from sun damage
+              </p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="product4.jpeg" alt="Sunblock">
+            <div class="product-details">
+              <h3>Sunblock</h3>
+              <p>Types: Broad-spectrum SPF 30 or higher, water-resistant, oil-free, tinted
+                Key ingredients: Zinc oxide, titanium dioxide, avobenzone
+                Benefits: Protect skin from UVA and UVB rays, prevent sunburn, reduce risk of skin cancer
+              </p>
+            </div>
+          </div>
+        
+      </section>
+      <section class="women-products">
+        <h2>Women's Products</h2>
+        <div class="product">
+          <img src="product5.jpeg" alt="Serums">
+          <div class="product-details">
+            <h3>Serums</h3>
+            <p>Targeted concerns: Anti-aging, hydration, brightening, dark circles, wrinkles
+                Key ingredients: Retinol, vitamin C, hyaluronic acid, peptides, niacinamide
+                Benefits: Reduce wrinkles, improve skin texture, fade dark circles and hyperpigmentation, hydrate skin
+            </p>
+          </div>
+        </div>
+        <div class="product">
+          <img src="product6.jpeg" alt="Herbal Shampoo">
+          <div class="product-details">
+            <h3>Herbal Shampoo</h3>
+            <p>Types: Color-safe, hydrating, volumizing, clarifying, hair loss prevention
+                Key ingredients: Argan oil, keratin, biotin, tea tree oil (for clarifying), caffeine (for hair loss)
+                Benefits: Cleanse hair, nourish and hydrate, add volume, remove build-up, prevent hair loss
+            </p>
+          </div>
+        </div>
+        <div class="product">
+            <img src="product7.jpeg" alt="Conditioner">
+            <div class="product-details">
+              <h3>Conditioner</h3>
+              <p>Types: Hydrating, detangling, frizz-fighting, color-safe, nourishing
+                Key ingredients: Shea butter, coconut oil, jojoba oil, silicones (for frizz control), amino acids
+                Benefits: Detangle hair, add moisture, prevent frizz, protect color, nourish hair
+              </p>
+            </div>
+          </div>
+          <div class="product">
+            <img src="product8.jpeg" alt="Acne Facewash">
+            <div class="product-details">
+              <h3>Acne Facewash</h3>
+              <p>Types: Salicylic acid-based, benzoyl peroxide-based, gentle for sensitive skin
+                Key ingredients: Salicylic acid, benzoyl peroxide, niacinamide, tea tree oil
+                Benefits: Cleanse skin, unclog pores, remove excess oil, prevent breakouts
+              </p>
+            </div>
+          </div>
+        
+      </section>
+    </header>
+  </section>
+  
+  <!-- Buttons for Services, About Us, and Contact Us -->
+  <div class="footer-buttons">
+    <button id="servicesBtn">Services</button>
+    <button id="aboutUsBtn">About Us</button>
+    <button id="contactUsBtn">Contact Us</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Functionality for the buttons
+    document.getElementById('servicesBtn').addEventListener('click', function() {
+      // Redirect or perform action for Services button
+      window.location.href = 'services.html';
+      console.log('Services button clicked');
+    });
+
+    document.getElementById('aboutUsBtn').addEventListener('click', function() {
+      // Redirect or perform action for About Us button
+       window.location.href = 'about us.html';
+      console.log('About Us button clicked');
+    });
+
+    document.getElementById('contactUsBtn').addEventListener('click', function() {
+      // Redirect or perform action for Contact Us button
+      window.location.href = 'contact us.html';
+      console.log('Contact Us button clicked');
+    });
+  </script>
+</body>
+</html>

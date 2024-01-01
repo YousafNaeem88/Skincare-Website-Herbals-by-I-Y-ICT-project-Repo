@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HERBALS BY I & Y - Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Centered buttons */
+    .button-container {
+      text-align: center;
+      margin-top: 50px; /* Adjust the top margin as needed */
+    }
+
+    .button-container button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #214c5e; /* Change the background color */
+      color: white; /* Change the text color */
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="services">
+  <section id="services" class="page">
+    <header>
+      <h1>Services</h1>
+      <p>At HERBALS BY I & Y, we're dedicated to providing high-quality natural products to enhance your beauty and well-being.</p>
+      <p>Our range of services includes:</p>
+      <ul>
+        <li>Skincare Products: Handcrafted skincare solutions tailored to your skin's needs.</li>
+        <li>Hair Care Products: Natural formulations for healthy and lustrous hair.</li>
+        <li>Serums: Targeted serums designed to rejuvenate and revitalize.</li>
+      </ul>
+    </header>
+  </section>
+
+  <!-- Buttons at the end of the page -->
+  <div class="button-container">
+    <button id="aboutBtn">About Us</button>
+    <button id="contactBtn">Contact Us</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // JavaScript for button functionality
+    document.getElementById("aboutBtn").addEventListener("click", function() {
+      window.location.href = "about us.html"; 
+    });
+
+    document.getElementById("contactBtn").addEventListener("click", function() {
+      window.location.href = "contact us.html";
+    });
+  </script>
+</body>
+</html>
